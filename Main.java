@@ -45,7 +45,7 @@ public class Main {
 			if(voto == A.numero){
 				while(c != 's' || c != 'S' || c != 'n' || c != 'N'){
 					System.out.print("Deseja confirmar seu voto no candidato "
-										+ A.nome + "? [s/n] ");
+										+ A.nome + "[s/n]? ");
 					conf = input.nextLine();
 					c = conf.charAt(0);
 				
@@ -65,7 +65,7 @@ public class Main {
 			else if (voto == B.numero){
 				while(c != 's' || c != 'S' || c != 'n' || c != 'N'){
 					System.out.print("Deseja confirmar seu voto no candidato "
-										+ B.nome + "? [s/n] ");
+										+ B.nome + "[s/N]? ");
 					conf = input.nextLine();
 					c = conf.charAt(0);
 					
@@ -83,7 +83,7 @@ public class Main {
 			}
 			else{
 				while(c != 's' || c != 'S' || c != 'n' || c != 'N'){
-					System.out.print("Deseja confirmar seu voto nulo? [s/n] ");
+					System.out.print("Deseja confirmar seu voto nulo[s/N]? ");
 					conf = input.nextLine();
 					c = conf.charAt(0);
 					
@@ -103,7 +103,7 @@ public class Main {
 			if(cfim == true){
 				totalVotos++;
 				while(c != 's' || c != 'S' || c != 'n' || c != 'N'){
-					System.out.print("Deseja continuar a eleição? [s/n] ");
+					System.out.print("Deseja continuar a eleição[s/N]? ");
 					conf = input.nextLine();
 					c = conf.charAt(0);				
 				
